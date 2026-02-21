@@ -10,6 +10,14 @@ This project demonstrates production-grade workflow engineering, ETL-style data 
 
 ---
 
+## 🖼 Workflow Screenshot
+
+Below is the actual n8n workflow implementation:
+
+![QA News Workflow](docs/workflow.png)
+
+---
+
 ## 🧠 Problem Statement
 
 QA Engineers need to stay updated with:
