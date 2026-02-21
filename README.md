@@ -62,3 +62,8 @@ flowchart TD
     I --> J[Batch Processing - 5 Items]
     J --> K[Wait 10 Seconds]
     K --> L[Send Telegram Notification]
+```
+---
+
+## Live in Action
+Download Telegram and Join https://t.me/+2wm7OXG1rIExNTVl for getting daily testing Updates   
