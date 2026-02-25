@@ -8,29 +8,27 @@
       "type": "n8n-nodes-base.removeDuplicates",
       "typeVersion": 2,
       "position": [
-        688,
-        -48
+        1056,
+        448
       ],
-      "id": "ac2b52dd-c640-43d5-a5da-e4590e6dc961",
+      "id": "f3668b13-71b2-4699-a696-380332edbf93",
       "name": "Remove Duplicates"
     },
     {
       "parameters": {
         "rule": {
           "interval": [
-            {
-              "field": "hours"
-            }
+            {}
           ]
         }
       },
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.3,
       "position": [
-        -1184,
-        96
+        -816,
+        592
       ],
-      "id": "d7cd28f9-4064-4306-be62-e32a2f78e024",
+      "id": "34e39c05-8d3f-4a54-989d-688bd67d2178",
       "name": "Schedule Trigger"
     },
     {
@@ -41,10 +39,10 @@
       "type": "n8n-nodes-base.splitOut",
       "typeVersion": 1,
       "position": [
-        -848,
-        96
+        -480,
+        592
       ],
-      "id": "8f6ab283-e9e5-43e0-9997-52add562438f",
+      "id": "9e767616-3200-49fd-873c-84a0a0508471",
       "name": "Split Out"
     },
     {
@@ -52,10 +50,10 @@
       "type": "n8n-nodes-base.noOp",
       "typeVersion": 1,
       "position": [
-        -368,
-        -496
+        0,
+        0
       ],
-      "id": "13bd0996-94a9-48b8-882d-6666b6da8ce1",
+      "id": "7a5f539c-6395-4233-ac90-181f0c83193d",
       "name": "No Operation, do nothing"
     },
     {
@@ -63,10 +61,10 @@
       "type": "n8n-nodes-base.noOp",
       "typeVersion": 1,
       "position": [
-        1088,
-        -112
+        1456,
+        384
       ],
-      "id": "23c613ca-81a7-4a1b-9ad0-1ee0a3581cd3",
+      "id": "a0e7b809-02d4-4041-b3f0-a10a5d99ef25",
       "name": "No Operation, do nothing1"
     },
     {
@@ -98,10 +96,10 @@
       "type": "n8n-nodes-base.filter",
       "typeVersion": 2.3,
       "position": [
-        576,
-        112
+        944,
+        608
       ],
-      "id": "fd63804e-dc17-49cc-ade6-6a493f40fe23",
+      "id": "4878fe97-27aa-407b-9526-332b18aa7180",
       "name": "Filter"
     },
     {
@@ -111,7 +109,7 @@
             {
               "id": "444ac845-ac2b-4d33-87f5-37c40f234052",
               "name": "urls",
-              "value": "['https://rss.app/feeds/y6jgpVGIq4hBaC1j.xml','https://rss.app/feeds/qQKn3dzg8icDrAzR.xml','https://rss.app/feeds/CrDXVhQM8wy14yyz.xml']",
+              "value": "['https://rss.app/feeds/FbM2Tr5tAdTKAwbr.xml','https://rss.app/feeds/y6jgpVGIq4hBaC1j.xml','https://rss.app/feeds/qQKn3dzg8icDrAzR.xml','https://rss.app/feeds/CrDXVhQM8wy14yyz.xml']",
               "type": "array"
             }
           ]
@@ -121,10 +119,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -992,
-        96
+        -640,
+        592
       ],
-      "id": "d41f4317-dac3-4189-9ca2-78f72b22b768",
+      "id": "5514a4b9-65a2-4072-b204-b550bcdc0dda",
       "name": "Input Feeds List"
     },
     {
@@ -135,10 +133,10 @@
       "type": "n8n-nodes-base.rssFeedRead",
       "typeVersion": 1.2,
       "position": [
-        -416,
-        112
+        -48,
+        608
       ],
-      "id": "e1987f79-6073-4bda-ae8d-483c1c79cba0",
+      "id": "d3e27ee6-0184-42f7-952b-eff2674792ca",
       "name": "Read Feed"
     },
     {
@@ -179,10 +177,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -192,
-        112
+        176,
+        608
       ],
-      "id": "0d1c0ec7-e293-4f9b-b352-27ac8cb596be",
+      "id": "2f2fc835-4cd1-4722-a18a-fd83710bd864",
       "name": "Extract Data"
     },
     {
@@ -194,10 +192,10 @@
       "type": "n8n-nodes-base.dateTime",
       "typeVersion": 2,
       "position": [
-        -32,
-        112
+        336,
+        608
       ],
-      "id": "091e6c77-c3a4-4679-a741-0041610cd89b",
+      "id": "38f9e7ad-9b63-4fd9-af31-727d714704ae",
       "name": "Get Current Date"
     },
     {
@@ -212,10 +210,10 @@
       "type": "n8n-nodes-base.dateTime",
       "typeVersion": 2,
       "position": [
-        176,
-        112
+        544,
+        608
       ],
-      "id": "1530a1d7-77e4-4b1f-a7c8-80723c3c8e6e",
+      "id": "8326a5eb-ea7b-4b25-96f2-dcce51662eda",
       "name": "Get Feed Published Date"
     },
     {
@@ -230,16 +228,16 @@
       "type": "n8n-nodes-base.dateTime",
       "typeVersion": 2,
       "position": [
-        384,
-        112
+        752,
+        608
       ],
-      "id": "d97953c9-0ef2-4d9e-943f-7085df8bb4b2",
+      "id": "989ce6e6-5869-417c-8bd6-ffeecb41c826",
       "name": "Formatted Current Date"
     },
     {
       "parameters": {
-        "chatId": "-5166823555",
-        "text": "=Title : {{ $json.title }}\nLink: {{ $json.link }}\nGist of the news: {{ $json.contentSnippet }}",
+        "chatId": "-1003867672247",
+        "text": "=Title : {{ $json.title }}\nLink: {{ $json.link }}\nGist of the news:{{ $json.output[0].content[0].text }}",
         "additionalFields": {
           "appendAttribution": false,
           "disable_web_page_preview": false,
@@ -249,15 +247,15 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        1184,
-        96
+        2112,
+        704
       ],
-      "id": "751b1451-485e-40b7-8ad2-d30551c07ed8",
+      "id": "7d2054b5-51cc-4d24-b4c4-97cde5a2d8bd",
       "name": "Send News Notification To Telegram Group",
       "webhookId": "4b68e12d-1e8f-488e-a1fc-beefb5595d34",
       "credentials": {
         "telegramApi": {
-          "id": "isfMLAOfiGo192pL",
+          "id": "BTnNAxZaKyaPZCYS",
           "name": "Telegram account"
         }
       }
@@ -269,10 +267,10 @@
       "type": "n8n-nodes-base.wait",
       "typeVersion": 1.1,
       "position": [
-        1024,
-        320
+        896,
+        1008
       ],
-      "id": "105a6ba4-02e3-4d70-a3b4-f99d8cf13265",
+      "id": "dfc71ba7-7c91-49de-9322-eda7df2c5ae6",
       "name": "Wait for 10 seconds",
       "webhookId": "017cca8f-1d14-461d-a8ff-428cc0717653"
     },
@@ -284,10 +282,10 @@
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
       "position": [
-        848,
-        96
+        1216,
+        592
       ],
-      "id": "254efadf-2b0c-4a1f-b3fe-da6841bf92c8",
+      "id": "828d66ac-f710-456a-80f2-9351c8c2fa9a",
       "name": "Loop Over  Filtered  News"
     },
     {
@@ -297,11 +295,87 @@
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
       "position": [
-        -656,
-        96
+        -288,
+        592
       ],
-      "id": "e9f34602-1aa2-4b2f-8c7b-19886997a86b",
+      "id": "470ddeac-033f-476e-b5ba-5f82ad4a0a5e",
       "name": "Loop Over Feed URL's"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "119cf106-14eb-458b-8311-17ad6785ab47",
+              "name": "title",
+              "value": "={{ $('Wait for 10 seconds').item.json.title }}",
+              "type": "string"
+            },
+            {
+              "id": "63a2b273-0b3b-4caf-a493-926a7a570944",
+              "name": "link",
+              "value": "={{ $('Wait for 10 seconds').item.json.link }}",
+              "type": "string"
+            },
+            {
+              "id": "8fdebb3b-a6a3-4538-a168-64fdac9d699f",
+              "name": "output[0].content[0].text",
+              "value": "={{ $json.output[0].content[0].text }}",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "include": "selected",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1680,
+        704
+      ],
+      "id": "35600b94-736f-4880-9083-f3c90f28d19b",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "responses": {
+          "values": [
+            {
+              "content": "=Summarize the following QA news article in 3 concise bullet points.\\n\\nTitle: {{$json.title}}\\n\\nContent: {{$json.contentSnippet}}\\n\\nKeep it technical and relevant for QA engineers.\""
+            },
+            {
+              "role": "system",
+              "content": "You are a senior QA automation engineer"
+            }
+          ]
+        },
+        "builtInTools": {},
+        "options": {
+          "maxTokens": 500
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 2.1,
+      "position": [
+        1280,
+        976
+      ],
+      "id": "770ddc2f-fdc6-43a1-8baf-1f3a82ec0704",
+      "name": "Message a model",
+      "credentials": {
+        "openAiApi": {
+          "id": "w5KvGluJqKpo5l4r",
+          "name": "OpenAi account"
+        }
+      }
     }
   ],
   "pinData": {},
@@ -428,6 +502,11 @@
             "node": "Loop Over  Filtered  News",
             "type": "main",
             "index": 0
+          },
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
           }
         ]
       ]
@@ -444,11 +523,6 @@
         [
           {
             "node": "Wait for 10 seconds",
-            "type": "main",
-            "index": 0
-          },
-          {
-            "node": "Send News Notification To Telegram Group",
             "type": "main",
             "index": 0
           }
@@ -472,22 +546,41 @@
           }
         ]
       ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Send News Notification To Telegram Group",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": true,
   "settings": {
     "executionOrder": "v1",
     "binaryMode": "separate",
-    "availableInMCP": false,
-    "timeSavedMode": "fixed",
-    "timezone": "Europe/London",
-    "callerPolicy": "workflowsFromSameOwner"
+    "availableInMCP": false
   },
-  "versionId": "1101b3bf-84f0-4d23-a33a-31ac66c3c150",
+  "versionId": "f8e9780a-2196-41cd-9a47-c210e19f2da2",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "77ca44262f39387bc9d8d9f85c5d24c475acfde24a0de9d3a31d510ff0bf802f"
+    "instanceId": "f2a855ed2475b63763b2fe6a44df1fbc61b0ad75e43f019fde1d057103a46f15"
   },
-  "id": "eyl8435rNA2IkOgW",
+  "id": "72MkDQmQhXVdN197",
   "tags": []
 }
