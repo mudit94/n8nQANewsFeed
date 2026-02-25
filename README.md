@@ -66,4 +66,4 @@ flowchart TD
 ---
 
 ## Live in Action
-Download Telegram and Join https://t.me/+2wm7OXG1rIExNTVl for getting daily testing Updates   
+Download Telegram and Join https://t.me/QANewsFeeds for getting daily testing Updates   
